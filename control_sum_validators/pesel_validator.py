@@ -46,6 +46,8 @@ def parse_date(pesel):
         year  += 2100
     elif century == 3:
         year += 2200
+    elif century == 4:
+        year += 1800
     
     return(year, month, day)
 
@@ -68,9 +70,9 @@ def verify_date(pesel):
         if day > last_day:
             day = 0
     elif month in shorter and day > 30:
-        month = 0
+        day = 0
     elif month in longer and day > 31:
-        month = 0
+        day = 0
     return year, month, day
 
 def verify_pesel(pesel, gender):
