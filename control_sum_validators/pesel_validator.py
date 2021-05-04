@@ -106,8 +106,8 @@ def pesel_validator(pesel, gender):
         return 'Please enter a correct number.'
     result = verify_pesel(pesel, gender)
     if result:
-        return 'Pesel is valid.'
-    return 'Pesel is not valid.'
+        return 'PESEL is valid.'
+    return 'PESEL is not valid.'
 
 
 p = '88023000465' # pesel z poprawną sumą kontrolną, ale z niepoprawną datą

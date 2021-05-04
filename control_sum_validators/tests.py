@@ -44,16 +44,11 @@ verify_pesel_data = [
         ('88051301431', 'f', False), 
         ]
 
-# pesel_validator
-# poprawność inputu - gender in 'f', 'm'
-# poprawność inputu - pesel.isdigit
-# poprawność inputu - długość pesel
-
 
 gender = 'Please enter a correct gender symbol: "f" for female, "m" for male.'
 length =  'Please enter a correct number.'
-invalid = 'Pesel is not valid'
-valid = 'Pesel is valid'
+invalid = 'PESEL is not valid'
+valid = 'PESEL is valid'
 
 validator_data = [
         ('88051301462', 'f', valid),
