@@ -1,1 +1,1 @@
-web: gunicorn control_sum:control_sum_validators
+web: gunicorn control_sum:app
