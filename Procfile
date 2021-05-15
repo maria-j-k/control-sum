@@ -1,1 +1,1 @@
-web: gunicorn control_sum_validators:control_sum 
+web: gunicorn control_sum:control_sum_validators
