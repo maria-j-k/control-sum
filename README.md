@@ -11,9 +11,11 @@ export FLASK_APP=control_sum for Unix-based system or set FLASK_APP=control_sum 
 ### usage
 endpoint: 
 
-_/pesel/\<p\>/\<g\>_
+_/pesel/_
 
-where 'p' is a string representing PESEL number and 'g' is a character representing gender: 'f' for female, 'm' for male.
+method: post
+
+required keys: 'pesel', 'gender'
 
 ### returned value
 
